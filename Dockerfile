@@ -9,6 +9,6 @@ RUN git fetch --depth 1 origin n4.3.2
 RUN git checkout FETCH_HEAD
 
 COPY build-ffmpeg.sh /ffmpeg/
-RUN /ffmpeg/build-ffmpeg.sh
+RUN sh /ffmpeg/build-ffmpeg.sh
 
 CMD bash
