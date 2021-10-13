@@ -1,6 +1,6 @@
-ff
-ff.js
-ff.wasm*
+/web/ff
+/web/ff.js
+/web/ff.wasm*
 /lib/include/
 /lib/lib/
 /lib/share/
