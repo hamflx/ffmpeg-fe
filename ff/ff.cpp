@@ -52,17 +52,6 @@ enum class DECODER_ERROR
   AVCODEC_RECEIVE_FRAME
 };
 
-struct NEXT_FRAME_RESULT
-{
-  int y;
-  int u;
-  int v;
-  int nY;
-  int nU;
-  int nV;
-  DECODER_ERROR code;
-};
-
 struct VIDEO_META_INFO
 {
   std::string sFormatName;
